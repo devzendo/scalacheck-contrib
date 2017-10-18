@@ -2,6 +2,12 @@ ScalaCheck-Contrib
 ==================
 This repository contains additional features for ScalaCheck that are not part of the main repository. At the moment only a JUnit 4 runner is available.
 
+The project was forked from its original (written by Oscar ) https://github.com/oscarrenalias/scalacheck-contrib
+and updated for Scala 2.11/ScalaCheck 1.12 by Matt Gumbley, and published to Maven Central.
+Since Matt can only publish under his group id 'org.devzendo', the group of the original
+code has been changed to this.
+
+
 JUnit 4 runner for ScalaCheck
 -----------------------------
 
@@ -27,30 +33,27 @@ Getting Started
 ----------------
 With Maven:
 
-        <repository>
-            <id>phunkphorce.github.com</id>
-            <name>Maven2 repository</name>
-            <url>http://phunkphorce.github.com/maven</url>
-        </repository>
-        ...
         <dependency>
-            <groupId>net.renalias.scalacheck</groupId>
-            <artifactId>scalacheck-contrib_2.9.0-1</artifactId>
-            <version>20110916</version>
+            <groupId>org.devzendo</groupId>
+            <artifactId>scalacheck-contrib_2.11</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
 With SBT (0.7.x):
 
 ```scala
-    val repo = "phunkporce.github.com" at "http://phunkphorce.github.com/maven"
-	val scalacheckContrib = "net.renalias.scalacheck" %% "scalacheck-contrib" % "20110916"
+	val scalacheckContrib = "org.devzendo" %% "scalacheck-contrib_2.11" % "1.0.0"
 ```
 
-Please note that the library is currently only compield for Scala 2.9.0-1.
+Please note that I do not use SBT; the above may not work ;)
+
+
+Please note that the library is currently only compiled for Scala 2.11.7.
 
 With the plain JAR file:
 
-Get the JAR file from here: https://github.com/phunkphorce/scalacheck-contrib/raw/master/target/scalacheck-contrib_2.9.0-1-20110916.jar
+Get the JAR file from here: http://search.maven.org/remotecontent?filepath=org/devzendo/scalacheck-contrib_2.11/1.0.0/scalacheck-contrib_2.11.jar
+
 
 License
 -------
