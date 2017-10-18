@@ -31,7 +31,7 @@ class ScalaCheckJUnitPropertiesRunner(suiteClass: java.lang.Class[Properties]) e
         description
     }
 
-    // Our custom tes callback, used to keep JUnit's runner updated about test progress
+    // Our custom test callback, used to keep JUnit's runner updated about test progress
     private[contrib] class CustomTestCallback(notifier:RunNotifier, desc: Description) extends Test.TestCallback {
         // TODO: is it even possible to obtain the correct stack trace? ScalaCheck doesn't throw Exceptions for property failures!
         def failure = new Failure(desc, new Throwable("ScalaCheck property did not hold true"))
