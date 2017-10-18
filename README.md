@@ -2,10 +2,10 @@ ScalaCheck-Contrib
 ==================
 This repository contains additional features for ScalaCheck that are not part of the main repository. At the moment only a JUnit 4 runner is available.
 
-The project was forked from its original (written by Oscar ) https://github.com/oscarrenalias/scalacheck-contrib
+The project was forked from its original (written by Oscar Renalias) https://github.com/oscarrenalias/scalacheck-contrib
 and updated for Scala 2.11/ScalaCheck 1.12 by Matt Gumbley, and published to Maven Central.
 Since Matt can only publish under his group id 'org.devzendo', the group of the original
-code has been changed to this.
+code has been changed to this. The copyright remains Oscar and Accenture - see end of page.
 
 
 JUnit 4 runner for ScalaCheck
@@ -58,3 +58,5 @@ Get the JAR file from here: http://search.maven.org/remotecontent?filepath=org/d
 License
 -------
 This code is copyrighted by Accenture, and is released under the Apache 2.0 License: http://www.apache.org/licenses/LICENSE-2.0.html.
+
+Update to modern Scala/Maven is copyright by Matt Gumbley, also under the Apache 2.0 License.
