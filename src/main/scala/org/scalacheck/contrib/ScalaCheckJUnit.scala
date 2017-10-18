@@ -1,10 +1,13 @@
 package org.scalacheck.contrib
 
 import org.junit.runner.Description
-import org.junit.runner.notification.{Failure, RunNotifier}
+import org.scalacheck._
+import org.scalacheck.{Test => ScalaCheckTest}
 import org.scalacheck.Test.Parameters
 import org.scalacheck.util.ConsoleReporter
-import org.scalacheck.{Test => ScalaCheckTest, _}
+import org.junit.runner.notification.{Failure, RunNotifier}
+import org.scalacheck.Prop.Result
+import java.lang.{Boolean, Throwable}
 
 
 /**
