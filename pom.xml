@@ -12,8 +12,8 @@
 
     <scm>
         <url>https://github.com/devzendo/scalacheck-contrib</url>
-        <connection>scm:git:git://github.com/devzendo/scalacheck-contrib.git</connection>
-        <developerConnection>scm:git:git@github.com:devzendo/scalacheck-contrib.git</developerConnection>
+        <connection>scm:git:https://github.com/devzendo/scalacheck-contrib.git</connection>
+        <developerConnection>scm:git:https://github.com:devzendo/scalacheck-contrib.git</developerConnection>
     </scm>
 
     <distributionManagement>
