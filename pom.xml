@@ -10,6 +10,12 @@
         <maven.build.timestamp.format>yyyyMMdd</maven.build.timestamp.format>
     </properties>
 
+    <scm>
+        <url>https://github.com/devzendo/scalacheck-contrib</url>
+        <connection>scm:git:git://github.com/devzendo/scalacheck-contrib.git</connection>
+        <developerConnection>scm:git:git@github.com:devzendo/scalacheck-contrib.git</developerConnection>
+    </scm>
+
     <distributionManagement>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
