@@ -4,6 +4,24 @@
     <groupId>org.devzendo</groupId>
     <artifactId>scalacheck-contrib_2.11</artifactId>
     <version>1.0.0</version>
+    <name>scalacheck-contrib_2.11</name>
+
+    <description>JUnit 4 Runner for ScalaCheck by Oscar Renalias; modern mavenisation by Matt Gumbley</description>
+
+    <url>https://devzendo.github.io/dev/scalacheck-contrib/</url>
+
+    <organization>
+        <name>DevZendo.org</name>
+        <url>http://devzendo.org/</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <properties>
         <scala.version>2.11.7</scala.version>
@@ -16,6 +34,14 @@
         <connection>scm:git:https://github.com/devzendo/scalacheck-contrib.git</connection>
         <developerConnection>scm:git:https://github.com/devzendo/scalacheck-contrib.git</developerConnection>
     </scm>
+
+    <developers>
+        <developer>
+            <id>matt.gumbley</id>
+            <name>Matt Gumbley</name>
+            <email>matt.gumbley@devzendo.org</email>
+        </developer>
+    </developers>
 
     <distributionManagement>
         <snapshotRepository>
