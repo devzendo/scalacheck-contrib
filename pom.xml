@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.devzendo</groupId>
     <artifactId>scalacheck-contrib_2.11</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>scalacheck-contrib_2.11</name>
 
     <description>JUnit 4 Runner for ScalaCheck by Oscar Renalias; modern mavenisation by Matt Gumbley</description>
