@@ -7,7 +7,6 @@
     <properties>
         <scala.version>2.11.7</scala.version>
         <scalacheck.scala.version>2.11</scalacheck.scala.version>
-        <maven.build.timestamp.format>yyyyMMdd</maven.build.timestamp.format>
     </properties>
 
     <scm>
