@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.devzendo</groupId>
-    <artifactId>scalacheck-contrib_2.11</artifactId>
+    <artifactId>scalacheck-contrib_2.12</artifactId>
     <version>1.0.1-SNAPSHOT</version>
-    <name>scalacheck-contrib_2.11</name>
+    <name>scalacheck-contrib_2.12</name>
 
     <description>JUnit 4 Runner for ScalaCheck by Oscar Renalias; modern mavenisation by Matt Gumbley</description>
 
@@ -24,8 +24,8 @@
     </licenses>
 
     <properties>
-        <scala.version>2.11.7</scala.version>
-        <scalacheck.scala.version>2.11</scalacheck.scala.version>
+        <scala.version>2.12.4</scala.version>
+        <scalacheck.scala.version>2.12</scalacheck.scala.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -69,7 +69,7 @@
         <dependency>
             <groupId>org.scalacheck</groupId>
             <artifactId>scalacheck_${scalacheck.scala.version}</artifactId>
-            <version>1.12.5</version>
+            <version>1.12.6</version> <!-- 1.14.0 exists, but will breaks compatibility with this module -->
         </dependency>
     </dependencies>
 
