@@ -30,9 +30,10 @@
     </properties>
 
     <scm>
-        <url>https://github.com/devzendo/scalacheck-contrib</url>
+        <url>https://github.com/devzendo/scalacheck-contrib.git</url>
         <connection>scm:git:https://github.com/devzendo/scalacheck-contrib.git</connection>
-        <developerConnection>scm:git:https://github.com/devzendo/scalacheck-contrib.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:devzendo/scalacheck-contrib.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
