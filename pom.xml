@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.devzendo</groupId>
     <artifactId>scalacheck-contrib_2.12</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5-SNAPSHOT</version>
     <name>scalacheck-contrib_2.12</name>
 
     <description>JUnit 4 Runner for ScalaCheck by Oscar Renalias; modern mavenisation by Matt Gumbley</description>
@@ -32,7 +32,7 @@
         <url>https://github.com/devzendo/scalacheck-contrib.git</url>
         <connection>scm:git:https://github.com/devzendo/scalacheck-contrib.git</connection>
         <developerConnection>scm:git:https://github.com/devzendo/scalacheck-contrib.git</developerConnection>
-        <tag>scalacheck-contrib_2.12-1.0.4</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
